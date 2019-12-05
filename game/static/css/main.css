@@ -1,0 +1,11 @@
+li.square {
+    display: inline-block;
+    border: solid;
+    background: aqua;
+    height: 60px;
+}
+
+ul.board {
+    display: flex;
+    flex-wrap: wrap;
+}
