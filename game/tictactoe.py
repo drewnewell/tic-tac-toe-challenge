@@ -224,3 +224,5 @@ async def listen(queue):
         # read from this websocket's queue and send
         data = await queue.get()
         await websocket.send(json.dumps(data, cls=GameJSONEncoder))
+
+app.run()
